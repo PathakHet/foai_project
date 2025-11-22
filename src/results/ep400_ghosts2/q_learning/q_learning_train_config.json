@@ -1,0 +1,14 @@
+{
+  "strategy": "epsilon_greedy",
+  "epsilon": 0.3,
+  "epsilon_min": 0.05,
+  "alpha": 0.006,
+  "gamma": 0.99,
+  "num_features": 11,
+  "layout": "mediumClassic",
+  "numGhosts": 2,
+  "episodes": 400,
+  "experiment": "ep400_ghosts2",
+  "mode": "train",
+  "agent": "q_learning"
+}

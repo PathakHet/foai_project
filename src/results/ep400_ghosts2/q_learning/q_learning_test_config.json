@@ -1,0 +1,12 @@
+{
+  "strategy": "greedy",
+  "epsilon": 0.0,
+  "alpha": 0.0,
+  "gamma": 0.0,
+  "layout": "mediumClassic",
+  "numGhosts": 2,
+  "episodes": 20,
+  "experiment": "ep400_ghosts2",
+  "mode": "test",
+  "agent": "q_learning"
+}

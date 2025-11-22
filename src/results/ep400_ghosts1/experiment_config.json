@@ -1,0 +1,25 @@
+{
+  "name": "ep400_ghosts1",
+  "layout": "mediumClassic",
+  "episodes": 400,
+  "numGhosts": 1,
+  "eval_episodes": 20,
+  "agent_types": [
+    "q_learning",
+    "sarsa"
+  ],
+  "training_params": {
+    "strategy": "epsilon_greedy",
+    "epsilon": 0.3,
+    "epsilon_min": 0.05,
+    "alpha": 0.006,
+    "gamma": 0.99,
+    "num_features": 11
+  },
+  "evaluation_params": {
+    "strategy": "greedy",
+    "epsilon": 0.0,
+    "alpha": 0.0,
+    "gamma": 0.0
+  }
+}
